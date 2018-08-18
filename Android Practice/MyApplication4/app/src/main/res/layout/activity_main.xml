@@ -10,36 +10,16 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="First Name"/>
+        android:text="Username"/>
 
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="Enter First Name"
-        android:id="@+id/edtFName"
+        android:hint="Enter Username/Email"
+        android:id="@+id/username"
         android:gravity="center"/>
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Last Name"/>
 
-    <EditText
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:hint="Enter Last Name"
-        android:id="@+id/edtLName"
-        android:gravity="center"/>
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Phone"/>
 
-    <EditText
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:hint="Enter Phone Number"
-        android:id="@+id/edtPhone"
-        android:gravity="center"/>
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -52,21 +32,12 @@
         android:inputType="textPassword"
         android:id="@+id/edtPass"
         android:gravity="center"/>
-    <LinearLayout
+    <CheckBox
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content">
-        <ImageView
-            android:layout_width="80dp"
-            android:id="@+id/imageOfClient"
-            android:layout_height="80dp"
-            android:src="@mipmap/no_image"/>
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Insert Photo"
-            android:layout_marginLeft="20dp"
-            android:layout_marginTop="30dp"/>
-    </LinearLayout>
+        android:layout_height="wrap_content"
+        android:text="Remember me"
+        android:id="@+id/rememberMe"/>
+
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
